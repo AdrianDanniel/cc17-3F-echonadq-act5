@@ -1,0 +1,38 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/artwork1"
+        android:contentDescription="Artwork 1" />
+
+    <TextView
+        android:id="@+id/description1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description: Beautiful Landscape by Artist A"
+        android:paddingTop="8dp" />
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/artwork2"
+        android:contentDescription="Artwork 2" />
+
+    <TextView
+        android:id="@+id/description2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description: Abstract Art by Artist B"
+        android:paddingTop="8dp" />
+
+
+</LinearLayout>
